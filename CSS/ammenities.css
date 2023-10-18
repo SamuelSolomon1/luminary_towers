@@ -1,6 +1,10 @@
 .wrap{
     text-align: center;
 }
+body{
+    background-image: url(/images/background/leavestrans.png);
+}
+
 p{
     text-align: left;
 }
@@ -11,6 +15,7 @@ p{
     padding-top: 10px;
 }
 /* CARD starts */
+
 #box{
     /* border: 2px solid red; */
     padding: 20px;
