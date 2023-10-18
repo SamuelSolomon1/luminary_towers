@@ -1,0 +1,38 @@
+.navbar {
+    /* display: flex;
+    align-items: center; */
+    background-color: #0000007c; 
+    /* padding: 10px 20px; */
+}
+
+.navbar-brand img {
+    height: 100px;
+}
+
+.navbar p {
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 2px 5px #000000;
+}
+.burger-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Styling for the footer */
+.custom-footer {
+    background: #537188;
+    color: #ffffff;
+}
+
+#copyRight {
+    background-color: #252525; 
+    padding-bottom: 10px;
+
+}
+#footerLogo {
+    opacity: 50%;
+    display:flex;                       
+    position: relative;           
+           
+}
