@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="icon" type="image/x-icon" href="../images/logo/brandlogoygold.png">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.example.com/path-to-your-font.css">
@@ -58,35 +59,35 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../images//background/hero3lobby.jpg" class="d-block w-100" alt="...">
+                <img src="../images//background/hero3lobby.jpg" class="d-block w-100" alt="This contains banner 1 of Luminary Towers">
                 <div class="carousel-caption d-none d-md-block">
                     <!-- <h5>First slide label</h5>
                     <p>Some representative placeholder content for the first slide.</p> -->
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../images/background/hero3concierge.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <!-- <h5>Second slide label</h5>
+                <img src="../images/background/hero3concierge.jpeg" class="d-block w-100" alt="This contains banner 2 of Luminary Towers"">
+                <div class=" carousel-caption d-none d-md-block">
+                <!-- <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p> -->
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="../images/background//hero1.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <!-- <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p> -->
-                </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHomePage" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselHomePage" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item">
+            <img src="../images/background//hero1.jpg" class="d-block w-100" alt="This contains banner 3 of Luminary Towers"">
+            <div class=" carousel-caption d-none d-md-block">
+            <!-- <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p> -->
+        </div>
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHomePage" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselHomePage" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
     </div>
     <!-- Open gap bet NavBar & Bulletin -->
 
@@ -212,39 +213,40 @@
 
                 <!-- Column 1 -->
 
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 text-white">
-                    <strong style="color: #ffff;">BUSINESS HOURS</strong><br>
-                    Monday to Friday: 9:00 AM - 12:00 PM, 1:00 PM - 6:00 PMSaturday: 9:00 AM - 1:00 PM
-                    Sunday and holidays: Closed</a><br><br>
-                    <strong style="color: #ffff;">ADDRESS</strong><br>
-                    2/F Tower 1, Lumina Tower 31st Ave, BGC Taguig City, Philippines<br>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 textStyle ">
+                    <strong>BUSINESS HOURS</strong><br>
+                    <p>Monday to Friday: 9:00 AM - 12:00 PM, 1:00 PM - 6:00 PMSaturday: 9:00 AM - 1:00 PM
+                        Sunday and holidays: Closed</p></a><br><br>
+                    <strong>ADDRESS</strong>
+                    <p>2/F Tower 1, Lumina Tower 31st Ave, BGC Taguig City, Philippines</p><br>
                 </div>
 
                 <!-- Column 2 -->
 
-                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 text-white">
-                    <strong style="color: #ffff;">YOU MAY REACH US</strong><br>
-                    Admin: (02) 7718-4364Engineering: (02) 7000-2381
-                    Engineering: (02) 7000-2381
-                    Billing and Collection: (02) 8711-5598,(0998) 936-3766 (Smart), (0967) 203-9054 (Globe) <br>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 textStyle">
+                    <strong>YOU MAY REACH US</strong><br>
+                    <p>Admin: (02) 7718-4364Engineering: (02) 7000-2381 <br>
+                        Engineering: (02) 7000-2381<br>
+                        Finance: (02) 8711-5598,(0998) 936-3766 (Smart), <br>(0967) 203-9054 (Globe) </p><br>
 
                 </div>
 
 
                 <!-- Column 3 -->
-                <div class="col-lg-4 col-md-6 text-white" id="footBranding">
+                <div class="col-lg-4 col-md-6 textStyle " id="footBranding">
                     <!-- <img src="../images/logo/Untitled design (6).png" alt="" id="footerLogo"> -->
-                    <strong style="color: #ffff;">CUSTOMER SERVICE</strong><br>
-                    SM Development CorporationG/F Tower A, Two E-Com CenterOcean Drive, Mall Of Asia ComplexPasay City, 1300, PhilippinesPhone: (02) 8858-0300Email: customerservice@smdevelopment.com.<br>
+                    <strong>CUSTOMER SERVICE</strong><br>
+                    <p>
+                        Luminary Development CorporationG/F Tower A, Two E-Com CenterOcean Drive, Mall Of Asia Complex Pasay City, 1300, PhilippinesPhone: (02) 8858-0300Email: customerservice@lumiratowers.com.
+                    </p><br>
 
                 </div>
             </div>
-
         </div>
 
     </footer>
     <!-- End of Footer -->
-    <div class="col-lg-12 col-md-6 mb-4 mb-lg-0 text-white text-center" id="copyRight">
+    <div class="col-lg-12 mb-lg-0 text-white text-center" id="copyRight">
 
         <div>
             <p id="copyNote">© 2016 - 2023 Luminary Towers Condominium Corporation. All rights reserved.</p>
