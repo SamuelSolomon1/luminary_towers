@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ammenities</title>
+  <link rel="icon" type="image/x-icon" href="../images/logo/brandlogoygold.png">
   <link rel="stylesheet" href="../CSS/ammenities.css">
-
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
@@ -55,32 +55,34 @@
           <!-- row 1 starts -->
           <div class="col-md-4" id="box">
             <!-- add h-100 to set all cards in same heigh 100% -->
-            <div class="card  h-100">
-              <img src="/images/sports facilities/olympic size pool.jpg" class="card-img-top" alt="Card Image 1">
+            <a href=""><div class="card  h-100">
+                <img src="/images/sports facilities/olympic size pool.jpg" class="card-img-top" alt="This contains Olympic size pool image">
               <div class="card-body">
-                <h5 class="card-title">Olympic Size Swimming Pool</h5>
+                <h5 class="card-title">Olympic Size Swimming Pool</h5>  
               </div>
             </div>
-          </div>
+          </div></a>
           <!-- CARD 2 -->
           <div class="col-md-4" id="box">
             <!-- add h-100 to set all cards in same heigh 100% -->
-            <div class="card  h-100">
-              <img src="/images/sports facilities/tennis court1.jpg" class="card-img-top" alt="Card Image 2">
-              <div class="card-body">
-                <h5 class="card-title">Indoor Tennis Court</h5>
+             <a href="">
+              <div class="card  h-100">
+              <img src="/images/sports facilities/tennis court1.jpg" class="card-img-top" alt="This contains tennis court image">
+              <div class="card-body">           
+                  <h5 class="card-title">Indoor Tennis Court</h5>
               </div>
             </div>
-          </div>
+          </div></a>
           <!-- CARD 3 -->
           <div class="col-md-4" id="box">
             <!-- add h-100 to set all cards in same heigh 100% -->
-            <div class="card  h-100">
-              <img src="/images/sports facilities/basketball court1.jpg" class="card-img-top" alt="Card Image 3">
+            <a href="">
+              <div class="card  h-100">
+                <img src="/images/sports facilities/basketball court1.jpg" class="card-img-top" alt="This contains basketball court image">
               <div class="card-body">
                 <h5 class="card-title">Indoor Basketball Court</h5>
               </div>
-            </div>
+            </div></a>
           </div></br><br /><br />
           <!-- row 1 ends -->
           <!-- row 2 starts -->
@@ -88,8 +90,9 @@
           <!-- CARD 1 -->
           <div class="col-md-4" id="box">
             <!-- add h-100 to set all cards in same heigh 100% -->
-            <div class="card  h-100">
-              <img src="/images/amenities/socialhall.jpg" class="card-img-top" alt="Card Image 1">
+            <a href="">
+              <div class="card  h-100">
+                <img src="/images/amenities/socialhall.jpg" class="card-img-top" alt="This contains contains social hall image">
               <div class="card-body">
                 <h5 class="card-title">Social Lounge</h5>
                 <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fan" viewBox="0 0 16 16">
@@ -104,12 +107,13 @@
                   </svg> 60 pax full capacity</p>
               </div>
             </div>
-          </div>
+          </div></a>
           <!-- CARD 2 -->
           <div class="col-md-4" id="box">
             <!-- add h-100 to set all cards in same heigh 100% -->
+           <a href="">
             <div class="card  h-100">
-              <img src="/images/amenities/conferencehall.jpg" class="card-img-top" alt="Card Image 2">
+                <img src="/images/amenities/conferencehall.jpg" class="card-img-top" alt="This contains conference hall image">
               <div class="card-body">
                 <h5 class="card-title">Conference Hall</h5>
                 <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fan" viewBox="0 0 16 16">
@@ -125,12 +129,13 @@
                   </svg> 50 pax full capacity</p>
               </div>
             </div>
-          </div>
+          </div></a>
           <!-- CARD 3 -->
           <div class="col-md-4" id="box">
             <!-- add h-100 to set all cards in same heigh 100% -->
+           <a href="">
             <div class="card h-100">
-              <img src="/images/amenities/eventhall.jpg" class="card-img-top" alt="Card Image 3">
+                <img src="/images/amenities/eventhall.jpg" class="card-img-top" alt="This contains event hall images">
               <div class="card-body">
                 <h5 class="card-title">Event Hall</h5>
                 <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fan" viewBox="0 0 16 16">
@@ -149,7 +154,7 @@
                   </svg> 100 pax full capacity</p>
               </div>
             </div>
-          </div>
+          </div></a>
           <!-- ROW 2 ENDS -->
         </div> <!--  div class wrap-->
       </div>
