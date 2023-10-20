@@ -22,7 +22,7 @@
 }
 /* bg-box */
 body {
-  background-image: url(/images/background/leavestrans.png);
+  background-image: url(../images/background/leavestrans.png);
   /* background-attachment: fixed;
 background-size: cover;
 
@@ -64,25 +64,32 @@ background-repeat: no-repeat;  */
   padding-bottom: 10px;
 }
 /* navbar and footer */
+
 .navbar {
   /* display: flex;
-    align-items: center; */
-  background-color: #1e2431;
+  align-items: center; */
+  background-color: #1e2431a4; 
   /* padding: 10px 20px; */
 }
 
 .navbar-brand img {
-  height: 100px;
+  height: 60px;
+  
 }
 
-.navbar p {
+.navbar-brand {
   color: rgb(255, 255, 255);
-  text-shadow: 4px 2px 5px #000000;
+  font-size:27px;
 }
 .burger-menu {
   display: none;
   font-size: 24px;
   cursor: pointer;
+}
+
+.nav-item a {
+  color: #ffffff;
+  text-shadow: 4px 2px 5px #000000;
 }
 
 /* Styling for the footer */

@@ -1,8 +1,16 @@
 body {
     background-color: #FFF4D6 ;
-    background-image: url("/luminary_towers/images/background/leavestrans.png");
+  
+}
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: #523901;
+    font-weight: bold;
 }
 
+p, ul {
+    font-family: 'Roboto', sans-serif;
+}
 .navbar {
     /* display: flex;
     align-items: center; */
@@ -56,7 +64,19 @@ body {
 #carouselHomePage img {
     height: 780px;
 }
+.background-container  {
+    
+ 
+    height: 100%;
+    background-image: url("../images/background/leavestrans.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: -30px
 
+
+}
 
 
 
@@ -64,17 +84,123 @@ body {
 
 .slideshow-container {
     position: relative;
-    max-width: 700px;
-    margin: 0 auto;
+    align-content: center;
+    max-width: 500px;
+  
 }
 
 .mySlides {
     display: none;
     width: 100%;
-    height: 300px;
+    height: 420px;
 }
 
 .slideshow-container img {
-    width: 100%;
-    height: 100%;
+    width: 126%;
+    height: 420px
 }
+
+.christmas-text {
+
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    font-size: 35px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 80px;
+    margin-left: 140px;
+    color: #FFF4D6;
+    text-shadow: 3px 3px 2px #000000;
+    
+   }
+
+
+
+#countdown {
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+    text-align: center;
+    /* background-color: #007a06fb; */
+    color: #FFF4D6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-shadow: 4px 2px 5px #000000;
+    display: inline-block;
+
+  }
+  .xmasCountdown {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+.xmasNote {
+    color: #FFF4D6;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 310px;
+    margin-left: 200px;
+    text-shadow: 5px 3px 4px #000000;
+}
+
+  #visualAnnouncement img { 
+    height: 420px;   
+  }
+
+
+  .announcement, .upcomingEvent {
+    padding-top: 20px;
+  }
+
+  #announcementBox, #upcomingEventBox {
+    background-color: #ffffff4b;
+    border-radius: 10px;
+  }
+
+  .circularPortion {
+    padding-bottom: 20px;
+  }
+
+  .upcomingdetails {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  
+
+  .card {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .card-title {
+    color: #523901;
+  }
+  .cardmainBody, .card-body {
+    background-color: #ffffff00;
+    
+  }
+
+  .cardmainBody {
+    padding-bottom: 5px;
+  }
+
+  .card-body {
+    margin-inline: 10px;
+  }
+
+#regBtn {
+    background-color: rgb(92, 58, 1);
+    border-color: none;
+    width: 220px;
+    transition: background-color 0.3s, transform 0.1s;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+  
+  .register-button:hover {
+    background-color: #000000; /* Background color on hover */
+    transform: scale(1.05); /* Scale the button slightly on hover */
+  }

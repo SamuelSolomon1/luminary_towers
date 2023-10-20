@@ -7,6 +7,8 @@
     <title>Home Page</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.example.com/path-to-your-font.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
     <link rel="stylesheet" href="../CSS/home.css">
 </head>
 <body>
@@ -44,9 +46,8 @@
     </div>
 </nav>
 <!-- End of Navbar -->
+
 <!-- Start of Hero Page -->
-
-
 
 <div id="carouselHomePage" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -86,23 +87,78 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
- <div class="bulletin col-12">   
+<!-- Open gap bet NavBar & Bulletin -->
+
+
+
+
+
+<!-- End of open gap bet NavBar & Bulletin -->
+ <div class="background-container col-12">   
             <div class="container">
                 <div class="row">
-                <div class="col-lg-6 col-sm-12"> 
-            <h2>ANNOUNCEMENT</h2>
+                <div class="col-lg-6 col-sm-12 " id="announcementBox">
+                <div class="container">
+                <div class="row">
+                    <div class="col-12 circularPortion">
+                    <div class="announcement">
+                        <center>
+                            <h2>ANNOUNCEMENT</h2>
+                        </center>
+                    </div>
+                    <p>Please see the following Circulars as of <span id="currentDate"></span>.</p>
+                    <ul>
+                    <li>Circular 2023-102: Garbage Collection New Schedule</li>
+                    <li>Circular 2023-103: Genral Pest Control</li>
+                    <li>Circular 2023-104: Grease Trap Cleaning</li>
+                    </ul>
+                    </div> 
+                    
+                    <div class="row mx-1">
+                    <div class="col-5 card  cardmainBody" style="width: 19rem;">
+                    <div class="card-body  ">
+                            <h5 class="card-title"><u>Important Reminders</u></h5>
+                            <h6 class="card-subtitle mb-2 text-muted">October01, 2023</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="card-link position-absolute bottom-0">Read now</a>
+                            
+                    </div>
+                    </div>
+                    <div class="col-5 card  cardmainBody " style="width: 19rem;">
+                    <div class="card-body">
+                            <h5 class="card-title"><u>Upcoming Holiday</u></h5>
+                            <h6 class="card-subtitle mb-2 text-muted">October 24, 2023</h6>
+                             <p class="card-text">During the holidays listed, please see below the name and contact number of the assigned Officers for your easy reference.</p>
+                            <a href="#" class="card-link position-absolute bottom-0">Read now</a>     
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            <div class="col-lg-6 col-sm-12 " id="visualAnnouncement">
+                    <div class="countDownCenter">
+                        <h2 class="christmas-text">CHRISTMAS IS NEAR</h2>
+                        <div class="xmasCountdown" id="countdown"></div>
+                        <div class="xmasNote">
+                        <p><center><i>List of events on December<br> will be announce on November 2, 2023.</i></center></p>
+                        
+                        </div>
+                        
+                       
+                    </div>
+                    <div>
+                    <img src="../images/christmas/christmas background2.jpg" alt="christmasBG">    
+                    </div>
             </div>
-            <div class="col-lg-6 col-sm-12">
-            <h2>ANNOUNCEMENT</h2>
-            </div>
+            <div class="col-12 ">&nbsp;</div>
 
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-lg-6 col-sm-12 ">
                 <div class="slideshow-container">
                     <?php
-                    $imageDirectory = "../images/trickortreat/"; // Directory containing the images
+                    $imageDirectory = "../images/trickortreat/";
                     $imageFiles = scandir($imageDirectory);
                     
-                    // Filter out non-image files (e.g., "." and "..")
                     $imageFiles = array_diff($imageFiles, array('.', '..'));
                     
                     foreach ($imageFiles as $image) {
@@ -113,20 +169,37 @@
                     ?>
                 </div>
             </div>
-            <div class="col-lg-6 col-sm-12">
-                <h2>UPCOMING EVENTS</h2><br>
-                <h6>Get Ready for a Spooktacular Halloween Trick-or-Treat Event!</h6>
-                <ul>
-                    <li> Date: October 31, 2023</li>
-                    <li>Time: 5:00 PM - 8:00 PM</li>
-                    <li>Location: [Your Town/City Name]</li>
-                    <p><i>Note. exclusive for Luminary Tower residents only</i></p>
-                </ul>
+            <div class="col-lg-6 col-sm-12 " id="upcomingEventBox">
+                <div class="upcomingEvent">
+                    <center>
+                        <h2>UPCOMING EVENT</h2>
+                    </center>
+                </div>
+                <br>
+
+                <div class="upcomingdetails">
+                    <p>Get Ready for a Spooktacular Halloween Trick-or-Treat Event!</p>
+                    <div>
+                        <ul>
+                            <li> Date: October 31, 2023</li>
+                            <li>Time: 5:00 PM - 8:00 PM</li>
+                            <li>Location: Luminary Tower Event Hall</li>
+                        
+                            
+                        </ul>
+                        <p><i>Note. exclusive for Luminary Tower residents only</i></p>
+                        <p>Only for thriteen (13) years of age and below</p>
+                        <p>Reseration will be ended on October 30, 2023, 3pm</p>
+                    </div>
+                </div>
+                <center><a href="registration.html" class="btn btn-dark" id="regBtn">Register Now</a></center>
             </div>
                 </div>
             </div>
         
 </div>
+
+
 
 <!-- Start of Footer -->
 <footer class="custom-footer py-4 mt-4">
@@ -175,6 +248,37 @@
               </div>
           </div>
             <script>
+                                // Set the date of Christmas (December 25th)
+                    const christmasDate = new Date("2023-12-25T00:00:00").getTime();
+
+                    // Update the countdown every second
+                    const countdown = setInterval(function() {
+                    const now = new Date().getTime();
+                    const timeRemaining = christmasDate - now;
+
+                    const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+                    // provision if decided that there's an House and second countdown
+                    const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+                    const countdownElement = document.getElementById("countdown");
+                    countdownElement.innerHTML = `${days} days`;
+
+                    if (timeRemaining <= 0) {
+                        clearInterval(countdown);
+                        countdownElement.innerHTML = "Merry Christmas!";
+                    }
+                    }, 1000);
+                // Script for Date
+                var currentDate = new Date();
+                
+           
+                var formattedDate = currentDate.toLocaleDateString();
+                
+           
+                document.getElementById("currentDate").textContent = formattedDate;
+
                 var slideIndex = 0;
                 showSlides();
 
@@ -192,9 +296,11 @@
                     }
 
                     slides[slideIndex - 1].style.display = "block";
-                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                    setTimeout(showSlides, 2000); 
                 }
+
+            
             </script>
 
 </body>
-</html>
+</html> 

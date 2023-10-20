@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="stylesheet" href="../CSS/about.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
@@ -71,7 +71,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
   <div class="row"> 
     <div class="col-md-3 card-padding"> <!--box left-->
       <div class="card h-100">
-        <img src="/images/About/board_of_trustees/diem-manh.png" class="card-img-top " alt="Image 1">
+        <img src="../images/About/board_of_trustees/diem-manh.png" class="card-img-top " alt="Image 1">
         <div class="card-body">
           <h5 class="card-title">Diem Manh</h5>
           <strong>PRESIDENT</strong>
@@ -81,7 +81,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
 
     <div class="col-md-3 card-padding"> <!--box mid-->
       <div class="card h-100">
-        <img src="/images/About/board_of_trustees/lucy.lu_Large.png" class="card-img-top " alt="Image 2">
+        <img src="../images/About/board_of_trustees/lucy.lu_Large.png" class="card-img-top " alt="Image 2">
         <div class="card-body">
           <h5 class="card-title">Lucy Lu</h5>
           <strong>VICE-PRESIDENT</strong>
@@ -91,7 +91,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
 
     <div class="col-md-3 card-padding"> <!--third column-->
       <div class="card h-100">
-        <img src="/images/About/board_of_trustees/pengya_Large.png" class="card-img-top" alt="Image 2">
+        <img src="../images/About/board_of_trustees/pengya_Large.png" class="card-img-top" alt="Image 2">
         <div class="card-body">
           <h5 class="card-title">Pengya Lu</h5>
           <strong>TRUSTEES</strong>
@@ -101,7 +101,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
 
     <div class="col-md-3 card-padding"> <!--fourth column-->
       <div class="card h-100">
-        <img src="/images/About/board_of_trustees/Laarni_Corpuz.png" class="card-img-top" alt="Image 2">
+        <img src="../images/About/board_of_trustees/Laarni_Corpuz.png" class="card-img-top" alt="Image 2">
         <div class="card-body">
           <h5 class="card-title">Laarni Corpuz</h5>
           <strong>TRUSTEES</strong>
@@ -115,7 +115,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
 
     <div class="col-md-3 card-padding"> <!--first column-->
       <div class="card h-100">
-        <img src="/images/About/management_staff/male/Henry-Kline.png" class="card-img-top" alt="Image 1">
+        <img src="../images/About/management_staff/male/Henry-Kline.png" class="card-img-top" alt="Image 1">
         <div class="card-body">
           <h5 class="card-title">Henry Kline</h5>
         </div>
@@ -124,7 +124,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
 
     <div class="col-md-3 card-padding"> <!--second column-->
       <div class="card h-100">
-        <img src="/images/About/management_staff/male/John-Almeida.png" class="card-img-top" alt="Image 2">
+        <img src="../images/About/management_staff/male/John-Almeida.png" class="card-img-top" alt="Image 2">
         <div class="card-body">
           <h5 class="card-title">John Almeida</h5>
         </div>
@@ -133,7 +133,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
 
     <div class="col-md-3 card-padding"> <!--third column-->
       <div class="card h-100">
-        <img src="/images/About/management_staff/male/Mike_Bellaborn.png" class="card-img-top" alt="Image 2">
+        <img src="../images/About/management_staff/male/Mike_Bellaborn.png" class="card-img-top" alt="Image 2">
         <div class="card-body">
           <h5 class="card-title">Mike Bellaborn</h5>
         </div>
@@ -142,7 +142,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
 
     <div class="col-md-3 card-padding"> <!--fourth column-->
       <div class="card h-100">
-        <img src="/images/About/management_staff/male/Slusher_Jordan.png" class="card-img-top" alt="Image 2">
+        <img src="../images/About/management_staff/male/Slusher_Jordan.png" class="card-img-top" alt="Image 2">
         <div class="card-body">
           <h5 class="card-title">Slusher Jordan</h5>
         </div>
@@ -151,7 +151,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
     <!-- SECOND ROW -->
     <div class="col-md-3 card-padding"> <!--first column-->
       <div class="card h-100">
-        <img src="/images/About/management_staff/female/Cally_Barnes.png" class="card-img-top" alt="Image 1">
+        <img src="../images/About/management_staff/female/Cally_Barnes.png" class="card-img-top" alt="Image 1">
         <div class="card-body">
           <h5 class="card-title">Cally Barnes</h5>
         </div>
@@ -160,7 +160,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
 
     <div class="col-md-3 card-padding"> <!--second column-->
       <div class="card h-100">
-        <img src="/images/About/management_staff/female/Jade_Amber.png" class="card-img-top" alt="Image 2">
+        <img src="../images/About/management_staff/female/Jade_Amber.png" class="card-img-top" alt="Image 2">
         <div class="card-body">
           <h5 class="card-title">Jade Amber</h5>
         </div>
@@ -169,7 +169,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
 
     <div class="col-md-3 card-padding"> <!--third column-->
       <div class="card h-100">
-        <img src="/images/About/management_staff/female/Loreen_Wine.png" class="card-img-top" alt="Image 2">
+        <img src="../images/About/management_staff/female/Loreen_Wine.png" class="card-img-top" alt="Image 2">
         <div class="card-body">
           <h5 class="card-title">Loreen Wine</h5>
         </div>
@@ -178,7 +178,7 @@ Tip: Try to remove the background-attachment property to remove the scrolling ef
 
     <div class="col-md-3 card-padding"> <!--fourth column-->
       <div class="card h-100">
-        <img src="/images/About/management_staff/female/Yanna_Browns.png" class="card-img-top" alt="Image 2">
+        <img src="../images/About/management_staff/female/Yanna_Browns.png" class="card-img-top" alt="Image 2">
         <div class="card-body">
           <h5 class="card-title">Yanna Browns</h5>
         </div>
