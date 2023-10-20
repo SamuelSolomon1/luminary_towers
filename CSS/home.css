@@ -36,6 +36,14 @@ p, ul {
 .nav-item a {
     color: #ffffff;
     text-shadow: 4px 2px 5px #000000;
+    text-decoration: none;
+}
+a {
+    color: #ffffff;
+    text-shadow: 4px 2px 5px #000000;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
 }
 /* Styling for the footer */
 .custom-footer {
@@ -158,6 +166,7 @@ p, ul {
   #announcementBox, #upcomingEventBox {
     background-color: #ffffff4b;
     border-radius: 10px;
+    padding-bottom: 10px;
   }
 
   .circularPortion {
@@ -180,10 +189,13 @@ p, ul {
   .cardmainBody, .card-body {
     background-color: #ffffff00;
     
+    
+    
   }
 
   .cardmainBody {
     padding-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   .card-body {
