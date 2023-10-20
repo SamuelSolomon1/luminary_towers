@@ -14,7 +14,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="main.html">
-            <img src="../images/logo/brandlogowhite.png" alt="Logo" id="navbar-logo">
+            <img src="../images/logo/brandlogoygold.png" alt="Logo" id="navbar-logo">
           LUMINARY TOWERS
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,6 @@
         </div>
     </div>
 </nav>
-    
 
 <footer class="custom-footer py-4 mt-4">
         <div class="container">
@@ -72,7 +71,7 @@
               
     
                 <!-- Column 3 -->
-                <div class="col-lg-4 col-md-6 text-white">
+                <div class="col-lg-4 col-md-6 text-white " id="footBranding">
                     <!-- <img src="../images/logo/Untitled design (6).png" alt="" id="footerLogo"> -->
                     <strong style="color: #ffff;">CUSTOMER SERVICE</strong><br>
                     SM Development CorporationG/F Tower A, Two E-Com CenterOcean Drive, Mall Of Asia ComplexPasay City, 1300, PhilippinesPhone: (02) 8858-0300Email: customerservice@smdevelopment.com.<br>
@@ -86,8 +85,8 @@
 
     <div class="col-lg-12 col-md-6 mb-4 mb-lg-0 text-white text-center" id="copyRight">
               
-              <div  id="copyNote">
-                  © 2016 - 2023 Luminary Towers Condominium Corporation. All rights reserved.
+              <div>
+                  <p id="copyNote">© 2016 - 2023 Luminary Towers Condominium Corporation. All rights reserved.</p>
               </div>
           </div>
 
