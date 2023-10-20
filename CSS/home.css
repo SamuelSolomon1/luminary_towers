@@ -39,20 +39,36 @@ p, ul {
 }
 /* Styling for the footer */
 .custom-footer {
-    background: #537188;
-    color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  background: #537188;
+  color: #F8F7DA;
 }
 
 #copyRight {
-    background-color: #252525; 
-    padding-bottom: 10px;
-
+  background-color: #252525; 
+  padding-bottom: 10px;
+  
+}
+#copyNote {
+  color: #F8F7DA;
+  padding-top: 20px;
 }
 #footerLogo {
-    opacity: 50%;
-    display:flex;                       
-    position: relative;           
-           
+  opacity: 50%;
+  display:flex;                       
+  position: relative;           
+         
+}
+#footBranding {
+  height: 30vh;
+  background-image: url("../images/logo//brandlogowhitefooter.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  transform: tr;
+      
+         
 }
 /* Hero pag part CSS */
 #carouselHomePage {
@@ -65,8 +81,7 @@ p, ul {
     height: 780px;
 }
 .background-container  {
-    
- 
+
     height: 100%;
     background-image: url("../images/background/leavestrans.png");
     background-size: cover;

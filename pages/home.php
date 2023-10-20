@@ -229,7 +229,7 @@
               
     
                 <!-- Column 3 -->
-                <div class="col-lg-4 col-md-6 text-white">
+                <div class="col-lg-4 col-md-6 text-white" id="footBranding">
                     <!-- <img src="../images/logo/Untitled design (6).png" alt="" id="footerLogo"> -->
                     <strong style="color: #ffff;">CUSTOMER SERVICE</strong><br>
                     SM Development CorporationG/F Tower A, Two E-Com CenterOcean Drive, Mall Of Asia ComplexPasay City, 1300, PhilippinesPhone: (02) 8858-0300Email: customerservice@smdevelopment.com.<br>

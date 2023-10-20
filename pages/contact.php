@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Home</title>
-    <link rel="stylesheet" href="/CSS/contact.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
     <title>Contact</title>
  
     
@@ -18,7 +18,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="main.html">
-            <img src="../images/logo/brandlogowhite.png" alt="Logo" id="navbar-logo">
+            <img src="../images/logo/brandlogoygold.png" alt="Logo" id="navbar-logo">
           LUMINARY TOWERS
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,51 +49,45 @@
 </nav>
 <!--nav end-->
 
-<div class="container">
-<div class="row">
+<div class="container ">
+<div class="row ">
 
-    <div class="col-lg-6 col-sm-12" id="box1">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1557.3573677820407!2d121.05074506543471!3d14.551601408235447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8f3d8fdbde1%3A0x9c4b1e671e138f93!2sTrack%2030th!5e0!3m2!1sen!2sph!4v1697702130283!5m2!1sen!2sph" width="600" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+    <div class="col-12 border border-primary">
+      <div class="col-lg-6 col-sm-12 border border-primary" id="box1">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1557.3573677820407!2d121.05074506543471!3d14.551601408235447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8f3d8fdbde1%3A0x9c4b1e671e138f93!2sTrack%2030th!5e0!3m2!1sen!2sph!4v1697702130283!5m2!1sen!2sph" width="500" height="50" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+      </div>
+      <div class="col-lg-6 col-sm-12 border border-primary" id="box2">
+      
+          <h2>FOR INQUIRIES AND SUGGESTIONS </h2>
+          <p>PLEASE GET IN TOUCH WITH US</p>
+              <form>
+                  <div class="mb-3">
+                      <label for="exampleInputName" class="form-label">Name</label>
+                      <input type="Name" class="form-control">
+                  </div>
+                  <div class="mb-3">
+                      <label for="exampleInputContactNumber" class="form-label">Contact Number</label>
+                      <input type="ContactNumber" class="form-control">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" >
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea name="message" rows="7" required class="form-control"></textarea>
+                  </div>
+      
+                  <button type="submit" class="btn btn-dark">Submit</button>
+                </form>
+      </div>
     </div>
+    
 
 
-    <div class="col-lg-6 col-sm-12" id="box2">
-        
-        <h1>Contact Us</h1>
-        <p>Let's Start a Conversation</p>
-            <form>
-                <div class="mb-3">
-                    <label for="exampleInputName" class="form-label">Name</label>
-                    <input type="Name" class="form-control">
-                </div>
-
-                <div class="mb-3">
-                    <label for="exampleInputContactNumber" class="form-label">Contact Number</label>
-                    <input type="ContactNumber" class="form-control">
-                </div>
-
-                <div class="mb-3">
-                  <label for="exampleInputEmail" class="form-label">Email</label>
-                  <input type="email" class="form-control" >
-                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-
-
-
-                <div class="mb-3">
-                  <label for="message" class="form-label">Message</label>
-                  <textarea name="message" rows="7" required class="form-control"></textarea>
-                </div>
-                
-                <button type="submit" class="btn btn-dark">Submit</button>
-              </form>       
-    </div>
-
-
-
-
-    <div class="col-md-12">   
+    <div class="col-md-12 containerFAQ">   
     <h1>Frequently Asked Question</h1>
 
         <div class="accordion" id="accordionExample">
@@ -185,10 +179,11 @@
           </div>
        
     </div>
+    </div><!--end of row-->
+    </div><!--end of container-->
 
 
-</div><!--end of row-->
-</div><!--end of container-->
+
 
 
 <footer class="custom-footer py-4 mt-4">
@@ -218,7 +213,7 @@
               
     
                 <!-- Column 3 -->
-                <div class="col-lg-4 col-md-6 text-white">
+                <div class="col-lg-4 col-md-6 text-white" id="footBranding">
                     <!-- <img src="../images/logo/Untitled design (6).png" alt="" id="footerLogo"> -->
                     <strong style="color: #ffff;">CUSTOMER SERVICE</strong><br>
                     SM Development CorporationG/F Tower A, Two E-Com CenterOcean Drive, Mall Of Asia ComplexPasay City, 1300, PhilippinesPhone: (02) 8858-0300Email: customerservice@smdevelopment.com.<br>
