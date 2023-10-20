@@ -34,13 +34,14 @@ p, ul {
 }
 
 .nav-item a {
-    color: #ffffff;
+    color: #FFF4D6;
     text-shadow: 4px 2px 5px #000000;
 }
 /* Styling for the footer */
 .custom-footer {
     background: #537188;
-    color: #ffffff;
+    color: #FFF4D6;
+    text-shadow: 2px 2px 8px #000000;
 }
 
 #copyRight {
@@ -78,6 +79,21 @@ p, ul {
 
 }
 
+#footBranding {
+  height: 30vh;
+  background-image: url("../images/logo//brandlogowhitefooter.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  transform: tr;
+      
+         
+}
+#copyNote {
+  color: #FFF4D6;
+  padding-top: 20px;
+}
 
 
 /* Events part CSS */
