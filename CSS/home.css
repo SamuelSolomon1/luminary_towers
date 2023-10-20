@@ -49,7 +49,7 @@ a {
 .custom-footer {
     background: #537188;
     color: #FFF4D6;
-    text-shadow: 2px 2px 8px #000000;
+    /* text-shadow: 2px 2px 8px #000000; */
 }
 
 #copyRight {
@@ -204,11 +204,11 @@ a {
   }
   .cardmainBody, .card-body {
     background-color: #ffffff00;
-    
-    
-    
   }
 
+  .card-link{
+    background-color: #523901;
+  }
   .cardmainBody {
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -232,3 +232,14 @@ a {
     background-color: #000000; /* Background color on hover */
     transform: scale(1.05); /* Scale the button slightly on hover */
   }
+/* scroll up button */
+.btn{
+background-color: #252525 !important;
+border: 1px solid #b5b5b1 !important;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  display: none;
+}

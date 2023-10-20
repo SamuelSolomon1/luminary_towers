@@ -21,6 +21,7 @@ h2 {
 p, ul {
    font-family: 'Roboto', sans-serif;
 }
+/* navbar */
 .navbar {
     /* display: flex;
     align-items: center; */
@@ -28,6 +29,7 @@ p, ul {
     /* padding: 10px 20px; */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.678)
 }
+
 
 .navbar-brand img {
     height: 60px;
@@ -54,7 +56,7 @@ p, ul {
     font-family: 'Roboto', sans-serif;
     background: #1E2431;
     color: #FFF4D6;
-    text-shadow: 2px 2px 8px #000000;
+    /* text-shadow: 2px 2px 8px #000000; */
     position: relative;
     top: 30px;
 }
@@ -84,6 +86,7 @@ p, ul {
     transform: tr;
            
 }
+/* footer ends */
 
 /* 
 #mainConContacts {
@@ -160,3 +163,14 @@ iframe {
     padding: none;
     margin: none;
   }
+/* scroll up button */
+.btn{
+background-color: #252525 !important;
+border: 1px solid #b5b5b1 !important;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  display: none;
+}
