@@ -1,0 +1,90 @@
+.navbar {
+    /* display: flex;
+    align-items: center; */
+    background-color: #1E2431; 
+    /* padding: 10px 20px; */
+}
+
+.navbar-brand img {
+    height: 100px;
+}
+
+.navbar p {
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 2px 5px #000000;
+}
+.burger-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Styling for the footer */
+.custom-footer {
+    background: #1E2431;
+    color: #ffffff;
+}
+
+#copyRight {
+    background-color: #252525; 
+    padding-bottom: 10px;
+
+}
+#footerLogo {
+    opacity: 50%;
+    display:flex;                       
+    position: relative;           
+           
+}
+
+
+
+
+
+
+.container{
+    padding-top: 50px;
+}
+
+.big-img{
+    width: 700px;
+}
+.big-img img{
+    width: inherit;
+}
+
+.images{
+    display: flex;
+    justify-content: flex;
+    width: 80%;
+    margin-top: 15px;
+    
+}
+.small-img{
+    width: 100px;
+    overflow: hidden;
+    border: 1.5px solid white;
+    margin: 3px;
+}
+.small-img img{
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.small-img:hover img{
+    transform: scale(1.2);
+}
+
+#box-left{
+    margin-right: auto;
+}
+
+#box-right{
+    
+}
+
+.accomodation1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
