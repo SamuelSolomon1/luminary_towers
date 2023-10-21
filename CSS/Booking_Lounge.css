@@ -1,0 +1,130 @@
+
+p, ul {
+    font-family: 'Roboto', sans-serif;
+ }
+ .navbar {
+     /* display: flex;
+     align-items: center; */
+     background-color: #1E2431 !important; 
+     /* padding: 10px 20px; */
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.678)
+ }
+ 
+ .navbar-brand img {
+     height: 60px;
+     
+ }
+ 
+ .navbar-brand {
+     color: #EDCA38 !important ;
+     font-size:27px !important;
+ 
+ }
+ .burger-menu {
+     display: none;
+     font-size: 24px;
+     cursor: pointer;
+ }
+ 
+ .nav-item a, li{
+     color: #EDCA38;
+     text-shadow: 4px 2px 5px #000000;
+ }
+ /* Styling for the footer */
+ .custom-footer {
+     font-family: 'Roboto', sans-serif;
+     background: #1E2431;
+     color: #FFF4D6;
+     text-shadow: 2px 2px 8px #000000;
+     position: relative;
+     top: 30px;
+ }
+ .custom-footer p {
+     color:#FFF4D6;
+ 
+ }
+ 
+ 
+ #copyRight {
+     background-color: #252525; 
+     padding-bottom: 10px;
+     
+ }
+ #copyNote {
+     color: #FFF4D6;
+     padding-top: 50px;
+    
+ }
+ #footBranding {
+     height: 30vh;
+     background-image: url("../images/logo//brandlogowhitefooter.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     position: relative;
+     transform: tr;
+            
+ }
+ 
+
+.container{
+    padding-top: 50px;
+}
+
+.big-img{
+    width: 700px;
+}
+.big-img img{
+    width: inherit;
+}
+
+.images{
+    display: flex;
+    justify-content: flex;
+    width: 80%;
+    margin-top: 15px;
+    
+}
+.small-img{
+    width: 100px;
+    overflow: hidden;
+    border: 1.5px solid white;
+    margin: 5px;
+}
+.small-img img{
+    width: inherit;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.small-img:hover img{
+    transform: scale(1.2);
+}
+
+#box-left{
+    margin-right: auto;
+}
+#box-right {
+    position: fixed; /* Position fixed */
+    top: 0; /* Top of the viewport */
+    right: 20px; /* Distance from the right side */
+    background-color: #fff; /* Background color */
+    padding: 20px; /* Add some padding for spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
+}
+.price {
+    font-size: 40px;
+}
+
+
+.accomodation1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#formRightSide {
+    display: grid;
+    position:relative;
+    align-content: center;
+
+}
