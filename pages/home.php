@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,6 +44,27 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./contact.php">CONTACT</a>
                     </li>
+                    <li class="nav-item dropdown"> <!-- Add 'dropdown' class to the parent li -->
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <?php
+                            if(!isset($_SESSION)) {
+                                session_start();
+                            } 
+                            if(isset($_SESSION["UserLogin"])) {
+                                echo " " .$_SESSION["UserLogin"];
+
+                            } else {
+                                echo "Guest";
+                            }
+
+                            ?>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <a href="logout.php">Logout</a> 
+                    
+                    </div>
+                </li>
+                    
 
                 </ul>
             </div>
