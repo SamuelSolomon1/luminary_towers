@@ -1,53 +1,96 @@
-.navbar {
-    /* display: flex;
-    align-items: center; */
-    background-color: #1E2431; 
-    /* padding: 10px 20px; */
+body {
+    background-color: #FFF4D6;
 }
 
-.navbar-brand img {
-    height: 100px;
+.backgrnd-overlay{
+    background-image: url('../images/background/leavestrans.png');
 }
+p, ul {
+    font-family: 'Roboto', sans-serif;
+ }
+ h1 {
+    font-family: 'Inter', sans-serif;
+    color:#523901 !important;
+ }
+ .navbar {
+     /* display: flex;
+     align-items: center; */
+     background-color: #1E2431 !important; 
+     /* padding: 10px 20px; */
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.678)
+ }
+ 
+ .navbar-brand img {
+     height: 60px;
+     
+ }
+ 
+ .navbar-brand {
+     color: #EDCA38 !important ;
+     font-size:27px !important;
+ 
+ }
+ .burger-menu {
+     display: none;
+     font-size: 24px;
+     cursor: pointer;
+ }
+ 
+ .nav-item a, li{
+     color: #EDCA38;
+     text-shadow: 4px 2px 5px #000000;
+ }
+ /* Styling for the footer */
+ .custom-footer {
+     font-family: 'Roboto', sans-serif;
+     background: #1E2431;
+     color: #FFF4D6;
+     text-shadow: 2px 2px 8px #000000;
+     position: relative;
+     top: 30px;
+ }
+ .custom-footer p {
+     color:#FFF4D6;
+ 
+ }
+ 
+ 
+ #copyRight {
+     background-color: #252525; 
+     padding-bottom: 10px;
+     
+ }
+ #copyNote {
+     color: #FFF4D6;
+     padding-top: 50px;
+    
+ }
+ #footBranding {
+     height: 30vh;
+     background-image: url("../images/logo//brandlogowhitefooter.png");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     position: relative;
+     transform: tr;
+            
+ }
 
-.navbar p {
-    color: rgb(255, 255, 255);
-    text-shadow: 4px 2px 5px #000000;
-}
-.burger-menu {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-}
-
-/* Styling for the footer */
-.custom-footer {
-    background: #1E2431;
-    color: #ffffff;
-}
-
-#copyRight {
-    background-color: #252525; 
-    padding-bottom: 10px;
-
-}
-#footerLogo {
-    opacity: 50%;
-    display:flex;                       
-    position: relative;           
-           
-}
-
-
-
-
-
-
-.container{
-    padding-top: 50px;
-}
+ .mainbooking {
+    background-color: #ffffff8f;
+    position: relative;
+    top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.678);
+    font-family: 'Inter', sans-serif !important;
+    color:#523901 !important;
+ }
 
 .big-img{
-    width: 700px;
+    width: 100%;
 }
 .big-img img{
     width: inherit;
@@ -64,7 +107,7 @@
     width: 100px;
     overflow: hidden;
     border: 1.5px solid white;
-    margin: 3px;
+    margin: 5px;
 }
 .small-img img{
     width: inherit;
@@ -78,13 +121,23 @@
 #box-left{
     margin-right: auto;
 }
-
-#box-right{
-    
+.price {
+    font-size: 40px;
 }
-
+#formRightSide {
+    margin: 0 auto;
+    width: 250px;
+    padding: 20px; 
+}
 .accomodation1 {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     margin-top: 20px;
+}
+
+.borderless-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color:#523901 !important;
 }
