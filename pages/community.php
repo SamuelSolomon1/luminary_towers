@@ -52,23 +52,15 @@
                     <h1>General Provisions</h1><br>
                     <p class="box-padding">
 
-                        1.1 These House Rules and Regulations (RULES), pursuant to the Master Deed with Declaration Restrictions of Luminary Towers (MASTER DEED), shall govern and regulate the use,<br>
-                        occupancy and enforcement of the individual units, common areas, and limited common areas of the Condominium, to ensure their efficient and orderly management and to promote <br>
-                        the common good of the unit owners and residents of Luminary Towers. <br><br>
+                        1.1 These House Rules and Regulations (RULES), pursuant to the Master Deed with Declaration Restrictions of Luminary Towers (MASTER DEED), shall govern and regulate the use, occupancy and enforcement of the individual units, common areas, and limited common areas of the Condominium, to ensure their efficient and orderly management and to promote the common good of the unit owners and residents of Luminary Towers. <br><br>
 
-                        1.2 All unit owners are required to comply with these RULES which must likewise be observed by (a) members of their family and their household help; (b) their lessees and members <br>
-                        of the family and household help of said lessees; (c) their guest and guests of their lessees; (d) those transacting business with them, or visiting the Condominium. <br><br>
+                        1.2 All unit owners are required to comply with these RULES which must likewise be observed by (a) members of their family and their household help; (b) their lessees and members of the family and household help of said lessees; (c) their guest and guests of their lessees; (d) those transacting business with them, or visiting the Condominium. <br><br>
 
-                        1.3 The Condominium Corporation or its duly authorized representative shall have full authority to implement these RULES which are a supplement to the bylaws and MASTER DEED <br>
-                        and should be interpreted in relation there to. An authorized representative refers to any of the officers of the Condominium Corporation so empowered or the duly appointed <br>
-                        Building Administration. Failure of the Condominium Corporation to enforce a rule or regulation or to render such determination shall in no way be construed as a waiver or an <br><br>
-                        abandonment of said rule or regulation under any future application.
+                        1.3 The Condominium Corporation or its duly authorized representative shall have full authority to implement these RULES which are a supplement to the bylaws and MASTER DEED and should be interpreted in relation there to. An authorized representative refers to any of the officers of the Condominium Corporation so empowered or the duly appointed Building Administration. Failure of the Condominium Corporation to enforce a rule or regulation or to render such determination shall in no way be construed as a waiver or an abandonment of said rule or regulation under any future application. <br><br>
 
-                        1.4 The Unit Owner may only be able to keep an animal or pet within the residential unit within Luminary Towers subject to compliance with the limitations and conditions prescribed <br>
-                        in the RULES.
-
-                        1.5 Each Unit Owner, occupant and/or tenant is obliged to keep and maintain his unit in a good tenant-able condition, a state of preservation and cleanliness and in a manner that will <br>
-                        not cause any prejudice or damage to other units/or the common areas of Luminary Towers.</p>
+                        1.4 The Unit Owner may only be able to keep an animal or pet within the residential unit within Luminary Towers subject to compliance with the limitations and conditions prescribed in the RULES. <br><br>
+                   
+                        1.5 Each Unit Owner, occupant and/or tenant is obliged to keep and maintain his unit in a good tenant-able condition, a state of preservation and cleanliness and in a manner that will not cause any prejudice or damage to other units/or the common areas of Luminary Towers.</p>
                 </div>
             </div> <!--box1 ends-->
             <!-- card navigation starts -->

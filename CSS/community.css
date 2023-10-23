@@ -21,13 +21,13 @@ h5{
 }
 /* p padding */
 .box-padding{
-  padding-left: 40px;
+  padding-left: 20px;
   padding-right: 20px;
 }
 /* container above administrator */
 .box{
   /* border: 2px solid red; */
-  background-image: url(/images/background/leavestrans.png);
+  background-image: url(../images/background/leavestrans.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10px;

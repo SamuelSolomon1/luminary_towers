@@ -1,0 +1,25 @@
+body    {
+    background-color: rgb(56, 107, 107);
+    
+}
+#form {
+    background-color: azure;
+    width: 25%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(15, 14, 59);
+    border-radius: 6px;
+}
+#btn {
+    color: aliceblue;
+    background-color: rgb(0, 94, 202);
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
+@media screen and (max-width:700px) {
+    #form {
+        width: 65%;
+        padding:40px;
+    }
+}

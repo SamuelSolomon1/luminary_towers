@@ -1,6 +1,16 @@
+body {
+    background-color: #FFF4D6;
+}
 
+.backgrnd-overlay{
+    background-image: url('../images/background/leavestrans.png');
+}
 p, ul {
     font-family: 'Roboto', sans-serif;
+ }
+ h1 {
+    font-family: 'Inter', sans-serif;
+    color:#523901 !important;
  }
  .navbar {
      /* display: flex;
@@ -65,14 +75,22 @@ p, ul {
      transform: tr;
             
  }
- 
 
-.container{
-    padding-top: 50px;
-}
+ .mainbooking {
+    background-color: #ffffff8f;
+    position: relative;
+    top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.678);
+    font-family: 'Inter', sans-serif !important;
+    color:#523901 !important;
+ }
 
 .big-img{
-    width: 700px;
+    width: 100%;
 }
 .big-img img{
     width: inherit;
@@ -103,28 +121,23 @@ p, ul {
 #box-left{
     margin-right: auto;
 }
-#box-right {
-    position: fixed; /* Position fixed */
-    top: 0; /* Top of the viewport */
-    right: 20px; /* Distance from the right side */
-    background-color: #fff; /* Background color */
-    padding: 20px; /* Add some padding for spacing */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow effect */
-}
 .price {
     font-size: 40px;
 }
-
-
+#formRightSide {
+    margin: 0 auto;
+    width: 250px;
+    padding: 20px; 
+}
 .accomodation1 {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     margin-top: 20px;
 }
 
-#formRightSide {
-    display: grid;
-    position:relative;
-    align-content: center;
-
+.borderless-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
 }
+
