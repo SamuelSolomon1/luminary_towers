@@ -11,6 +11,7 @@ p, ul {
  h1 {
     font-family: 'Inter', sans-serif;
     color:#523901 !important;
+    text-decoration: none !important;
  }
  .navbar {
      /* display: flex;
@@ -37,8 +38,9 @@ p, ul {
  }
  
  .nav-item a, li{
-     color: #EDCA38;
+     color: #EDCA38 !important;
      text-shadow: 4px 2px 5px #000000;
+     text-decoration: none !important;
  }
  /* Styling for the footer */
  .custom-footer {

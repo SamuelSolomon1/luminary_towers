@@ -1,5 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $name = $_POST["name"];
+  $contact_number = $_POST["contact_number"];
+  $email = $_POST["email"];
+  $message = $_POST["message"];
+
+
+  $host = "localhost";
+  $user = "root";
+  $password = "";
+  $database = "eventdb"; //database name
+
+  $conn = new mysqli($host, $user, $password, $database);
+
+  // error connections
+  if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+  }
+  $sql = "INSERT INTO contacts (name, contact_number, email, message) VALUES ('$name', '$contact_number', '$email', '$message')";
+
+  if ($conn->query($sql) === TRUE) {
+    echo "New contact record created successfully";
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
+
+  $conn->close(); //close the connection
+}
+?>
 
 <head>
   <meta charset="UTF-8">
@@ -15,6 +45,7 @@
 </head>
 
 <body>
+
   <!-- navbar start -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
     <div class="container-fluid">
@@ -101,26 +132,30 @@
 
           <h2>How can we help you? </h2>
           <p>Please get in touch with us</p>
-          <form onsubmit="return validateForm()">
+          <!-- <form onsubmit="return validateForm()"> -->
             <div class="mb-3">
+              <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+              <!-- name -->
               <label for="exampleInputName" class="form-label">Name</label>
-              <input type="text" class="form-control" id="exampleInputName" required placeholder="Enter your full-name">
+              <input type="text" name="name" class="form-control" id="exampleInputName" required placeholder="Enter your full-name">
             </div>
             <div class="mb-3">
+              <!-- contact -->
               <label for="exampleInputContactNumber" class="form-label">Contact Number</label>
-              <input type="text" class="form-control" id="exampleInputContactNumber" required placeholder="Enter your contact number">
+              <input type="text" name="contact_number" class="form-control" id="exampleInputContactNumber" required placeholder="Enter your contact number">
             </div>
             <div class="mb-3">
+              <!-- email -->
               <label for="exampleInputEmail" class="form-label">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail" required placeholder="Enter your valid email">
+              <input type="email" name="email" class="form-control" id="exampleInputEmail" required placeholder="Enter your valid email">
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
+              <label for="message"  class="form-label">Message</label>
               <textarea name="message" rows="3" required class="form-control" id="message" placeholder="Type your message here"></textarea>
             </div>
 
-            <center><button type="submit" class="btn btn-dark" id="conSubmitBtn">Submit</button></center>
+            <center><button type="submit" value="submit" class="btn btn-dark" id="conSubmitBtn">Submit</button></center>
           </form>
         </div>
       </div><!--end of row-->

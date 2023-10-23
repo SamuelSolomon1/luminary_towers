@@ -55,7 +55,7 @@
           <!-- row 1 starts -->
           <div class="col-md-4" id="box">
             <!-- add h-100 to set all cards in same heigh 100% -->
-            <a href=""><div class="card  h-100">
+            <a href="../pages/Booking_Swimming.php"><div class="card  h-100">
                 <img src="../images/sports facilities/olympic size pool.jpg" class="card-img-top" alt="This contains Olympic size pool image">
               <div class="card-body">
                 <h5 class="card-title">Olympic Size Swimming Pool</h5>  
@@ -90,7 +90,7 @@
           <!-- CARD 1 -->
           <div class="col-md-4" id="box">
             <!-- add h-100 to set all cards in same heigh 100% -->
-            <a href="">
+            <a href="../pages/Booking_Lounge.php">
               <div class="card  h-100">
                 <img src="../images/amenities/socialhall.jpg" class="card-img-top" alt="This contains contains social hall image">
               <div class="card-body">

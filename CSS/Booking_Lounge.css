@@ -1,7 +1,6 @@
 body {
     background-color: #FFF4D6;
 }
-
 .backgrnd-overlay{
     background-image: url('../images/background/leavestrans.png');
 }
@@ -10,6 +9,10 @@ p, ul {
  }
  h1 {
     font-family: 'Inter', sans-serif;
+    color:#523901 !important;
+    text-decoration: none ;
+ }
+ #custom-icon, .fas{
     color:#523901 !important;
  }
  .navbar {

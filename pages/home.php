@@ -219,7 +219,7 @@
                             <p>Reseration will be ended on October 30, 2023, 3pm</p>
                         </div>
                     </div>
-                    <center><a href="registration.html" class="btn btn-dark" id="regBtn">Register Now</a></center>
+                    <center><a href="../pages/event.php" class="btn btn-dark" id="regBtn">Register Now</a></center>
                 </div>
             </div>
         </div>
