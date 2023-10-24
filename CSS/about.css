@@ -1,15 +1,3 @@
-.parallax {
-  /* The image used */
-  background-image: url("/images/About/luminary_towers.gif");
-  /* Set a specific height */
-  min-height: 1050px;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; 
- }
-/*  */
 .text-box {
   position: absolute;
   bottom: 50px;
@@ -18,21 +6,24 @@
   font-weight: 20px;
   color: #edca38;
   text-shadow: 2px 2px #000000;
-  /* color: #edca38; */
+
 }
-/* bg-box */
+
 body {
   background-image: url(../images/background/leavestrans.png);
-  
-  /* background-attachment: fixed;
-background-size: cover;
 
-background-repeat: no-repeat;  */
 }
+.video-container {
+  max-width: 120%; 
+  height: auto; /
+}
+
 /* card */
 .wrap-box {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
   text-align: center;
-  font-size: 50px;
+  font-size: 70px !important;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #423f3f;
@@ -46,116 +37,116 @@ background-repeat: no-repeat;  */
   width: 100%;
   height: 15vw;
   object-fit: scale-down;
-  background-color: #d9d9d9;
+  background: linear-gradient(to bottom, #000000, #323232);
   border-top-right-radius: 10px !important;
   border-top-left-radius: 10px !important;
 }
+
+#mngtTeam {
+  width: 100%;
+  height: 15vw;
+  object-fit: scale-down;
+  background: radial-gradient(circle, #000000, #2f3132);
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+}
+
 .card {
   border-radius: 10px !important;
+  
 }
 .card-body {
-  background-color: #ababab;
+  background-color: #537188;
   text-align: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  
 }
 /* card padding */
 .card-padding {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.card-title {
+  color: #EEEEEE !important;
+}
+
+.card-title strong {
+  color: #EEEEEE !important;
+}
 /* navbar and footer */
-/* burger menu change color */
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28237,202,56, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-.navbar-toggler {
-  border: 1px solid #EDCA38  !important;
-}
-h2 {
-    font-family: 'Roboto', sans-serif;
-    color: #523901;
-    font-weight: bold;
-}
 
 p, ul {
-   font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .navbar {
-    /* display: flex;
-    align-items: center; */
-    background-color: #1E2431 !important; 
-    /* padding: 10px 20px; */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.678)
+   /* display: flex;
+   align-items: center; */
+   background-color: #1E2431 !important; 
+   /* padding: 10px 20px; */
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.678)
 }
-/* .nav-link{
-  font-size: 20px !important;
-} */
 
 .navbar-brand img {
-    height: 60px ;
-    
+   height: 60px;
+   
 }
 
-.navbar-brand {
-    color: #EDCA38 !important;
-    font-size:27px !important;
+.navbar-brand  {
+   color: #EDCA38 !important;
+   font-size:27px !important;
 
 }
 .burger-menu {
-    display: none;
-    font-size: 24px ;
-    cursor: pointer;
+   display: none;
+   font-size: 24px;
+   cursor: pointer;
 }
 
 .nav-item a, li{
-    color: #EDCA38;
-    text-shadow: 4px 2px 5px #000000;
+   color: #EDCA38;
+   text-shadow: 4px 2px 5px #000000;
 }
+#logoutdrop {
+  background-color: #1E2431;
+
+}
+#logoutdrop a{
+  color: #FFF4D6;
+}
+
 /* Styling for the footer */
 .custom-footer {
-    font-family: 'Roboto', sans-serif;
-    background: #1E2431;
-    color: #FFF4D6;
-    text-shadow: 2px 2px 8px #000000;
-    position: relative;
-    top: 30px;
+   font-family: 'Roboto', sans-serif;
+   background: #1E2431;
+   color: #FFF4D6;
+   text-shadow: 2px 2px 8px #000000;
+   position: relative;
+   top: 30px;
 }
 .custom-footer p {
-    color:#FFF4D6;
+   color:#FFF4D6;
 
 }
 
 
 #copyRight {
-    background-color: #252525; 
-    padding-bottom: 10px;
-    
-}
-#copyNote {
-    color: #FFF4D6;
-    padding-top: 50px;
+   background-color: #252525; 
+   padding-bottom: 10px;
    
 }
+#copyNote {
+   color: #FFF4D6;
+   padding-top: 50px;
+  
+}
 #footBranding {
-    height: 30vh;
-    background-image: url("../images/logo//brandlogowhitefooter.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    transform: tr;
-           
-}
-/* footer ends */
-/* scroll up button */
-.btn{
-background-color: #252525 !important;
-border: 1px solid #b5b5b1 !important;
-}
-#btn-back-to-top {
-  position: fixed;
-  bottom: 50px;
-  right: 20px;
-  display: none;
+   height: 30vh;
+   background-image: url("../images/logo//brandlogowhitefooter.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   position: relative;
+   transform: tr;
+          
 }

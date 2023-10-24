@@ -38,6 +38,13 @@ p, ul {
     text-shadow: 4px 2px 5px #000000;
     text-decoration: none;
 }
+#logoutdrop {
+  background-color: #1E2431;
+
+}
+#logoutdrop a{
+  color: #FFF4D6;
+}
 a {
     color: #ffffff;
     text-shadow: 4px 2px 5px #000000;
@@ -64,27 +71,26 @@ a {
            
 }
 /* Hero pag part CSS */
-#carouselHomePage {
+#carouselExampleIndicators {
     display: flex;
     position: relative;
     top: -120px;
     z-index: -1;
 }
-#carouselHomePage img {
+#carouselExampleIndicators img {
     height: 780px;
 }
+
+
 .background-container  {
-    
- 
+
     height: 100%;
     background-image: url("../images/background/leavestrans.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    top: -30px
-
-
+    top: -80px
 }
 
 #footBranding {

@@ -1,6 +1,6 @@
 body {
     background-color: #FFF4D6;
-    padding-top: 150px;  
+    /* padding-top: 150px;   */
     background-image: url("../images/background/leavestrans.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,6 +13,8 @@ body {
     text-align: center;
 }
 form{
+    position: relative;
+    top: 30px;
     background-color: #1E2431;
     max-width: 400px;
     margin: 0 auto;
@@ -20,6 +22,7 @@ form{
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     color: #EDCA38;
+    z-index: 3;
 }
 /* h2 starts */
 h2 {
@@ -149,3 +152,22 @@ p, ul {
            
 }
 /* footer ends */
+.overlayeffect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+    backdrop-filter: blur(8px); /* Apply a blur effect */
+    z-index: 1; /* Place it below the login container */
+}
+#closeButton {
+    position: relative;
+    left: 335px;
+    background-color: transparent; /* Remove background color */
+        color: #EDCA38; /* Set text color to red */
+        border: none; /* Remove border */
+        padding: 0; /* Remove padding */
+        font-size: 15px; /* Adjust font size as needed */
+}

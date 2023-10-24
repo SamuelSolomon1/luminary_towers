@@ -5,43 +5,52 @@ body {
 .backgrnd-overlay{
     background-image: url('../images/background/leavestrans.png');
 }
-p, ul {
-    font-family: 'Roboto', sans-serif;
- }
+
  h1 {
     font-family: 'Inter', sans-serif;
     color:#523901 !important;
     text-decoration: none !important;
  }
- .navbar {
+
+ p, ul {
+    font-family: 'Roboto', sans-serif;
+  }
+  .navbar {
      /* display: flex;
      align-items: center; */
      background-color: #1E2431 !important; 
      /* padding: 10px 20px; */
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.678)
- }
- 
- .navbar-brand img {
+  }
+  
+  .navbar-brand img {
      height: 60px;
      
- }
- 
- .navbar-brand {
-     color: #EDCA38 !important ;
+  }
+  
+  .navbar-brand  {
+     color: #EDCA38 !important;
      font-size:27px !important;
- 
- }
- .burger-menu {
+  
+  }
+  .burger-menu {
      display: none;
      font-size: 24px;
      cursor: pointer;
- }
- 
- .nav-item a, li{
-     color: #EDCA38 !important;
+  }
+  
+  .nav-item a, li{
+     color: #EDCA38;
      text-shadow: 4px 2px 5px #000000;
-     text-decoration: none !important;
- }
+  }
+#logoutdrop {
+    background-color: #1E2431 !important;
+  
+  }
+#logoutdrop a{
+    color: #FFF4D6 !important;
+  }
+  
  /* Styling for the footer */
  .custom-footer {
      font-family: 'Roboto', sans-serif;

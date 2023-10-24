@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./home.php">HOME</a>
+                        <a class="nav-link" href="#" style="color: #EDCA38;">HOME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./about.php">ABOUT</a>
@@ -59,11 +59,10 @@
 
                             ?>
                     </a>
-                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <a href="logout.php">Logout</a> 
-                    
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" id="logoutdrop">
+                        <center><a href="logout.php">Logout</a> 
+                    </center>
                     </div>
-                </li>
                     
 
                 </ul>
@@ -74,51 +73,40 @@
 
     <!-- Start of Hero Page -->
 
-    <div id="carouselHomePage" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselHomePage" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselHomePage" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselHomePage" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../images//background/hero3lobby.jpg" class="d-block w-100" alt="This contains banner 1 of Luminary Towers">
+            <video autoplay muted loop width="100%">
+                <source src="../video/Sequence 01.mp4" type="video/mp4">
+            </video>
                 <div class="carousel-caption d-none d-md-block">
-                    <!-- <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p> -->
+                
                 </div>
             </div>
+            <!-- To make the video response. This code will have to stay in this line until line 106.  -->
             <div class="carousel-item">
                 <img src="../images/background/hero3concierge.jpeg" class="d-block w-100" alt="This contains banner 2 of Luminary Towers"">
                 <div class=" carousel-caption d-none d-md-block">
-                <!-- <h5>Second slide label</h5>
-                    <p>Some representative placeholder content for the second slide.</p> -->
             </div>
-        </div>
-        <div class="carousel-item">
+            </div>
+            <div class="carousel-item">
             <img src="../images/background//hero1.jpg" class="d-block w-100" alt="This contains banner 3 of Luminary Towers"">
             <div class=" carousel-caption d-none d-md-block">
-            <!-- <h5>Third slide label</h5>
-                    <p>Some representative placeholder content for the third slide.</p> -->
-        </div>
+
+            </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHomePage" data-bs-slide="prev">
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHomePage" data-bs-slide="next">
+            </button>
+              <!-- To make the video response. This code will have to stay in this line  -->
     </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHomePage" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselHomePage" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-    </div>
-    <!-- Open gap bet NavBar & Bulletin -->
+    <!-- Open gap Bulletin -->
 
-
-
-
-
-    <!-- End of open gap bet NavBar & Bulletin -->
     <div class="background-container col-12">
         <div class="container">
             <div class="row">
@@ -174,7 +162,7 @@
 
 
                     </div>
-                    <div>
+                    <div >
                         <img src="../images/christmas/christmas background2.jpg" alt="christmasBG">
                     </div>
                 </div>
@@ -215,18 +203,31 @@
 
                             </ul>
                             <p><i>Note. exclusive for Luminary Tower residents only</i></p>
-                            <p>Only for thriteen (13) years of age and below</p>
+                            <p>Only for thirteen (13) years of age and below</p>
                             <p>Reseration will be ended on October 30, 2023, 3pm</p>
                         </div>
                     </div>
-                    <center><a href="../pages/event.php" class="btn btn-dark" id="regBtn">Register Now</a></center>
+                    
+                    <?php
+                        if (!isset($_SESSION)) {
+                            session_start();
+                        }
+
+                        if (isset($_SESSION["UserLogin"]) && $_SESSION["UserLogin"] == 'member') {
+                            echo '<center><a href="../pages/event.php" class="btn btn-dark" id="regBtn">Register Now</a></center>';
+                        } else {
+                            echo "<center><p>Welcome, Guest. The Event is for the members only<p></center>";
+                        }
+                        ?>
+                 
+                    <!-- <center><a href="../pages/event.php" class="btn btn-dark" id="regBtn">Register Now</a></center> -->
                 </div>
             </div>
         </div>
 
     </div>
 
-
+    <!-- End of open gap Bulletin -->
 
     <!-- Start of Footer -->
     <footer class="custom-footer py-4 mt-4">

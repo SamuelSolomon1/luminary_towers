@@ -12,38 +12,57 @@
 
 <body>
     <!-- navbar starts -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="main.html">
-                <img src="../images/logo/brandlogoygold.png" alt="Logo" id="navbar-logo">
-                LUMINARY TOWERS
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="main.html">
+                    <img src="../images/logo/brandlogoygold.png" alt="Logo" id="navbar-logo">
+                    LUMINARY TOWERS
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./home.php">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.php">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./community.php">PROPERTIES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./ammenities.php">AMMENITIES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="./contact.php">CONTACT</a>
-                    </li>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./home.php">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.php">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #FFF4D6">PROPERTIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ammenities.php">AMMENITIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.php">CONTACT</a>
+                        </li>
+                        <li class="nav-item dropdown"> <!-- Add 'dropdown' class to the parent li -->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <?php
+                                    if(!isset($_SESSION)) {
+                                        session_start();
+                                    } 
+                                    if(isset($_SESSION["UserLogin"])) {
+                                        echo " " .$_SESSION["UserLogin"];
 
-                </ul>
+                                    } else {
+                                        echo "Guest";
+                                    }
+
+                                    ?>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" id="logoutdrop">
+                            <center><a href="logout.php">Logout</a> </center>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     <!-- navbar ends -->
     <main>
         <section>
@@ -78,13 +97,13 @@
                         <ul class="nav nav-tabs card-header-tabs">
                             <li class="nav-item">
                                 <!--add  <a class="nav-link active" aria-current="true" href="#"> for active tab-->
-                                <a class="nav-link community-box" href="/pages/community.php">Administrative</a>
+                                <a class="nav-link community-box" href="community.php">Administrative</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link active community-box" aria-current="true" href="/pages/community-billing.php">Billing & Collection</a>
+                                <a class="nav-link active community-box" aria-current="true" href="community-billing.php">Billing & Collection</a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link community-box" href="/pages/community-engineering.php">Engineering</a>
+                                <a class="nav-link community-box" href="community-engineering.php">Engineering</a>
                             </li>
                         </ul>
                     </div>
