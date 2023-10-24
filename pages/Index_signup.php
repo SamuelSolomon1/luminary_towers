@@ -25,6 +25,7 @@
         <br>
         <form name="form" action="signup.php" method="POST">
             <i class="fa-solid fa-user"></i>
+
             <input type="text" id="firstname" name="firstname" placeholder="First name" required>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <input type="text" id="lastname" name="lastname" placeholder="Last name" required><br><br>
@@ -32,6 +33,15 @@
             <input type="text" id="contactnumber" name="contactnumber" placeholder="contact no." required> &nbsp;&nbsp;
             <i class="fa-solid fa-envelope"></i>
             <input type="email" id="email" name="email" placeholder="email address" required><br><br>
+
+            <input type="text" id="firstname" name="firstname" placeholder="first name" required>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="lastname" name="lastname" placeholder="last name" required><br><br>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="contactnumber" name="contactnumber" placeholder="contact no." required> &nbsp;&nbsp;
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id="email" name="email" placeholder="email address" required><br><br>
+
             <i class="fa-solid fa-lock"></i>
             <input type="password" id="user" name="pass" placeholder="Create Password" required><br><br>
             <i class="fa-solid fa-lock"></i>
