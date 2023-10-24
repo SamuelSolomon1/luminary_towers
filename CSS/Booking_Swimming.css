@@ -146,7 +146,7 @@ body {
     margin-top: 20px;
 }
 
-.borderless-btn {
+.borderless-btn b {
     border: none;
     background: none;
     cursor: pointer;

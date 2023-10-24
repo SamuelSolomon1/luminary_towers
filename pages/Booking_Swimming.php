@@ -108,7 +108,7 @@
                             <hr>
                             <div class="accomodation">
                                 <p><b>Properties:</b> &nbsp; &nbsp; Accomodates max of 10 pax and
-                                    with life guad on duty</p>
+                                    with life guard on duty</p>
 
                             </div>
                             <div class="reservation">
@@ -194,7 +194,7 @@
                     <div class="row">
                         <div class="col-lg-2 col-sm-12">
 
-                            <button class="borderless-btn" onclick="toggleInfo()"><b>More info:</b></button>
+                            <button class="borderless-btn" onclick="toggleInfo()"><b>More info &nbsp;<i class="fa-solid fa-caret-down"></i></b></button>
                         </div>
                         <div class="col-lg-6 col-sm-12" id="info" style="display: none;">
 
