@@ -3,11 +3,7 @@ body {
   
 }
 
-h2 {
-    font-family: 'Playfair Display', serif;
-    color: #523901;
-    font-weight: bold;
-}
+
 
 p, ul {
     font-family: 'Roboto', sans-serif;
@@ -56,12 +52,12 @@ p, ul {
  
  
  #copyRight {
-     background-color: #252525; 
+     background-color: #fcfcfc00; 
      padding-bottom: 10px;
      
  }
  #copyNote {
-     color: #FFF4D6;
+     color: #4646469a;
      padding-top: 50px;
     
  }
@@ -76,20 +72,51 @@ p, ul {
             
  }
  
+ .video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1; /* Place the video behind other content */
+}
+
+#video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
 
 #form {
     background-image: url('../images/background/leavestrans.png');
-    width: 28%;
-    border-radius:  6px;
+    width: 27%;
     margin: 120px auto;
     padding: 50px;
-    box-shadow: 10px 10px 5px rgb(82, 11, 77);
+    box-shadow: 10px 10px 5px rgb(15, 14, 59);
+    border-radius: 6px;
+    z-index: 5;
+    color: #523901;
+
 }
 
-#btn{
+h1 {
+
+        font-family: 'Playfair Display', serif;
+        color: #523901;
+        font-weight: bold;
+        font-size: 40px;
+        text-shadow: 2px 2px 2px rgba(235, 235, 235, 0.541);
+
+}
+#btn {
+    color: aliceblue;
+    background-color: #52380188;
+    padding: 10px;
     width: 100%;
-    color: white;
-    background-color: rgb(85, 1, 85);
+    border: none;
     font-size: large;
     border-radius: 10px;
 }
@@ -100,15 +127,12 @@ p, ul {
     }
 }
 
-    
-
-/* .video-background {
-    position: fixed;
-    top: 0;
-    left: 0;
+.custom-button {
+    background-color: rgba(0, 0, 0, 0.459);
+    padding: 10px;
+    color: #fff;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.171); 
-    backdrop-filter: blur(5px);
-    z-index: 1; 
-} */
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}

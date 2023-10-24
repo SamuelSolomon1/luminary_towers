@@ -12,7 +12,7 @@
 
 <body>
   <!-- navbar starts -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="main.html">
         <img src="../images/logo/brandlogoygold.png" alt="Logo" id="navbar-logo">
@@ -34,12 +34,30 @@
             <a class="nav-link" href="./community.php">PROPERTIES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./ammenities.php">AMMENITIES</a>
+            <a class="nav-link" href="#" style="color: #FFF4D6;">AMMENITIES</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./contact.php">CONTACT</a>
           </li>
+          <li class="nav-item dropdown"> <!-- Add 'dropdown' class to the parent li -->
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <?php
+                            if(!isset($_SESSION)) {
+                                session_start();
+                            } 
+                            if(isset($_SESSION["UserLogin"])) {
+                                echo " " .$_SESSION["UserLogin"];
 
+                            } else {
+                                echo "Guest";
+                            }
+
+                            ?>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" id="logoutdrop">
+                    <center><a href="logout.php">Logout</a> </center>
+                    </div>
+                </li>
         </ul>
       </div>
     </div>
@@ -55,10 +73,11 @@
           <!-- row 1 starts -->
           <div class="col-md-4" id="box">
             <!-- add h-100 to set all cards in same heigh 100% -->
+    
             <a href="../pages/Booking_Swimming.php"><div class="card  h-100">
-                <img src="../images/sports facilities/olympic size pool.jpg" class="card-img-top" alt="This contains Olympic size pool image">
+                <img src="../images/sports facilities/swimmingpool2.jpg" class="card-img-top" alt="This contains Olympic size pool image">
               <div class="card-body">
-                <h5 class="card-title">Olympic Size Swimming Pool</h5>  
+                <h5 class="card-title">Swimming Pool</h5>  
               </div>
             </div>
           </div></a>

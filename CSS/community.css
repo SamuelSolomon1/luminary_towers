@@ -1,18 +1,12 @@
-
-
 body{
   background-color: #FFF4D6 !important;
-  padding-top: 130px;
-  /* background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative; */
+
 }
-/* container */
 .box1{
   padding-top: 20px;
   padding-bottom: 10px;
 }
+
 h1{
   text-align: center;
 }
@@ -57,53 +51,46 @@ h5{
 
 }
 /* navbar and footer */
-/* burger menu change color */
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28237,202,56, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-}
-.navbar-toggler {
-  border: 1px solid #EDCA38  !important;
-}
-h2 {
-    font-family: 'Roboto', sans-serif;
-    color: #523901;
-    font-weight: bold;
-}
 
 p, ul {
-   font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 .navbar {
-    /* display: flex;
-    align-items: center; */
-    background-color: #1E2431 !important; 
-    /* padding: 10px 20px; */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.678)
+   /* display: flex;
+   align-items: center; */
+   background-color: #1E2431 !important; 
+   /* padding: 10px 20px; */
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.678)
 }
-/* .nav-link{
-  color: #EDCA38 !important;
-} */
 
 .navbar-brand img {
-    height: 60px ;
-    
+   height: 60px;
+   
 }
 
-.navbar-brand {
-    color: #EDCA38 !important;
-    font-size:27px !important;
+.navbar-brand  {
+   color: #EDCA38 !important;
+   font-size:27px !important;
 
 }
 .burger-menu {
-    display: none;
-    font-size: 24px ;
-    cursor: pointer;
+   display: none;
+   font-size: 24px;
+   cursor: pointer;
 }
 
 .nav-item a, li{
-    color: #EDCA38;
-    text-shadow: 4px 2px 5px #000000;
+   color: #EDCA38;
+   text-shadow: 4px 2px 5px #000000;
 }
+#logoutdrop {
+  background-color: #1E2431;
+
+}
+#logoutdrop a{
+  color: #FFF4D6;
+}
+
 /* Styling for the footer */
 .custom-footer {
     font-family: 'Roboto', sans-serif;

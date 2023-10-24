@@ -1,5 +1,5 @@
 <?php
-include("eventdb.php");
+include("connection.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,12 +10,14 @@ include("eventdb.php");
     <title>Booking Form</title>
     <link rel="stylesheet" href="../CSS/event.css">
     <link rel="icon" type="image/x-icon" href="../images/logo/brandlogoygold.png">
+     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://kit.fontawesome.com/db2451deb4.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
     <!-- navbar starts -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="main.html">
                 <img src="../images/logo/brandlogoygold.png" alt="Logo" id="navbar-logo">
@@ -49,7 +51,8 @@ include("eventdb.php");
     </nav>
     <!-- navbar ends -->
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-        <h2>Event booking</h2>
+        <button id="closeButton" type="button"><i class="fa-solid fa-x"></i></button>
+        <h2>Event Registration</h2>
         First name<br>
         <input type="text" name="first_name"><br>
         Last Name<br>
@@ -138,10 +141,17 @@ include("eventdb.php");
         </div>
     </div>
     <!-- footer ends -->
-
+    <div class="overlayeffect"></div>
     <!-- bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+    document.getElementById('closeButton').addEventListener('click', function() {
+        // Redirect to the home page when the button is clicked
+        window.location.href = 'home.php'; // Replace 'home_page.php' with your actual home page URL
+    });
+    </script>
+
 </body>
 
 </html>

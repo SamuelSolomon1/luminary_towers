@@ -40,10 +40,29 @@
                             <a class="nav-link" href="./community.php">PROPERTIES</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./ammenities.php">AMMENITIES</a>
+                            <a class="nav-link" href="#" style="color: #FFF4D6;">AMMENITIES</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./contact.php">CONTACT</a>
+                        </li>
+                        <li class="nav-item dropdown"> <!-- Add 'dropdown' class to the parent li -->
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <?php
+                                    if(!isset($_SESSION)) {
+                                        session_start();
+                                    } 
+                                    if(isset($_SESSION["UserLogin"])) {
+                                        echo " " .$_SESSION["UserLogin"];
+
+                                    } else {
+                                        echo "Guest";
+                                    }
+
+                                    ?>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown" id="logoutdrop">
+                            <center><a href="logout.php">Logout</a> </center>
+                            </div>
                         </li>
 
                     </ul>
@@ -128,7 +147,19 @@
                                     <p style="font-size: 11px;"><i>AM starts at 6:00am. PM starts at 6:00pm</i></p>
                                 </div>
                                 <!-- <center><button type="submit" class="btn btn-dark">Book Now</button></center> -->
-                                <center><button type="submit" name="submit" class="btn btn-dark">Book Now</button></center>
+                                <?php
+                                    if (!isset($_SESSION)) {
+                                        session_start();
+                                    }
+
+                                    if (isset($_SESSION["UserLogin"]) && $_SESSION["UserLogin"] == 'member') {
+                                        echo '  <center><button type="submit" name="submit" class="btn btn-dark">Book Now</button></center>';
+                                    } else {
+                                        echo "<center><p>Welcome, Guest. Booking is for the members only.<p></center>";
+                                    }
+                                    ?>
+
+                              
                                 <!-- php for displaying done booking-->
                                 <?php
                                 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
