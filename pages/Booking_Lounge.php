@@ -189,7 +189,7 @@
                     <div class="row">
                         <div class="col-lg-2 col-sm-12">
 
-                            <button class="borderless-btn" onclick="toggleInfo()"><b>More info:</b></button>
+                            <button class="borderless-btn" onclick="toggleInfo()"><b>More info &nbsp;<i class="fa-solid fa-caret-down"></i></b></button>
                         </div>
                         <div class="col-lg-5 col-sm-12" id="info" style="display: none;">
 
